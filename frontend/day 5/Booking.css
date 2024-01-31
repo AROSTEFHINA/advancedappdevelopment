@@ -1,0 +1,71 @@
+.min {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: azure;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+/*   
+  form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  } */
+  
+  .ji,
+  .hoon,
+  .park,
+  .sugar,
+  .water,
+  .bottle,
+  .phone,
+  .essarr {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ 
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #608ebe; /* Change this color to your desired color */
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change this color to the hover color you prefer */
+  }
+  
+      .aott{
+        background-color: rgb(159, 197, 197);
+      }
+.winsall{
+    margin-left: 70px;
+}

@@ -1,0 +1,318 @@
+
+.body
+{
+width: 95%;
+height: 450px;
+background: rgba(236, 220, 178, 0.925);
+display: flex ;
+margin: 70px auto;
+margin-left:15px ;
+}
+.right-side
+{
+display: flex;
+float: left;
+width: 50%;
+padding: 50px;
+height: 70%;
+}
+.right-side .about-img
+{
+position: absolute;
+top: 130px;
+left: 900px;
+width: 100px;
+height:500px;
+}
+/* .about-img:hover
+{
+transform: scale(1.1);
+background: #868b8b;
+box-shadow: 2px 2px 2px #ffffff;
+z-index: 2;
+} */
+/* .about-img::before
+{
+position: absolute;
+content: '';
+right: -40px;
+top: 22px;
+border: 5px solid rgba(0, 0, 0, 0.5);
+width:102%;
+height: 95%;
+} */
+/* .about-img img
+{
+height: 2000%;
+width: 100%;
+} */
+.left-side
+{
+display: flex;
+margin-top: 30px;
+float: left;
+width: 100%;
+padding: 60px;
+height: 400px;
+}
+.info h1
+{
+font-size: 40px;
+margin-left: 35%;
+}
+.info h2
+{
+font-size: 25px;
+margin-left: 40px;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+.info h2 span
+{
+color: whitesmoke;
+font-size: 35px;
+}
+.info p
+{
+line-height: 22px;
+font-size: 20px;
+margin-left: 40px;
+margin-bottom: 25px;
+}
+.info a
+{
+text-decoration: none;
+color: black;
+margin-top: 10px;
+}
+.info a i
+{
+font-size: 1.5rem;
+}
+.container2
+{
+width: 95%;
+height: auto;
+padding: 10px;
+margin: 80px auto;
+display: flex ;
+justify-content: center;
+}
+.box
+{
+width: 380px;
+height: 700px;
+background:  #c7bfdb;
+margin: 0px 10px;
+transition: 1s;
+}
+.box:hover
+{
+transform: scale(1.1);
+background:  #FFF3DA;
+box-shadow: 2px 2px 2px #000;
+z-index: 2;
+}
+.box-img img
+{height: 110px;
+width: 110px;
+background-size: cover;
+background-position: center;
+border-radius: 50px;
+transform: translate(-50%,-50%);
+position: relative;
+margin-top: 50%;
+margin-left: 50%;
+}
+.box-text
+{
+padding: 10px;
+/* margin-top: -10%; */
+margin: 5px;
+}
+.watt{
+    margin-top: -170px;
+    padding:5px;
+    
+}
+.box-text h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.box-text p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.box-text a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.box-text a:hover
+{
+background-color:rgb(192, 181, 183);
+color: whitesmoke;
+font :bold;}
+
+.watt h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.watt p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.watt a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.watt a:hover
+{
+background-color:rgb(238, 161, 174);
+color: whitesmoke;
+font :bold;}
+
+
+.ted{
+    margin-top: -170px;
+    padding:5px;
+    
+}
+.ted h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.ted p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.ted a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.ted a:hover
+{
+background-color:rgb(192, 181, 183);
+color: whitesmoke;
+font :bold;}
+
+.win{
+    margin-top: -170px;
+    padding:5px;
+    
+}
+.win h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.win p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.win a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.win a:hover
+{
+background-color:rgb(192, 181, 183);
+color: whitesmoke;
+font :bold;}
+
+
+.paris{
+    margin-top: -170px;
+    padding:5px;
+    
+}
+.paris h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.paris p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.paris a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.paris a:hover
+{
+background-color:rgb(192, 181, 183);
+color: whitesmoke;
+font :bold;}
