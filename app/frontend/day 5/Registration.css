@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body,
+h1,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #d6c1c1;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center the content vertically and horizontally */
+.reg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the registration form container */
+.registration {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px; /* Set a specific width for the container */
+}
+
+/* Style form groups */
+.grp1,
+.grp2,
+.grp3,
+.grp4,
+.grp5 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Style labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style registration button */
+.prob {
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prob:hover {
+  background-color: #0056b3;
+}
+
+/* Style error message */
+.itsme {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,220 @@
+/* styles.css */
+
+/* Header */
+/* header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+  } */
+  
+  header h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 72px;
+    margin: 0;
+  }
+  
+  .hero h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .hero .btn {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  /* Destinations Section */
+  .destinations {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .destinations .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .destinations p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .destinations hr {
+    border: none;
+    border-top: 2px solid #007bff;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  /* Tour Packages Section */
+  .packages {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .packages .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .packages p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .packages hr {
+    border: none;
+    border-top: 2px solid #007bff;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  .packages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .packages li {
+    display: inline-block;
+    width: 25%;
+    padding: 0 20px;
+    vertical-align: top;
+  }
+  
+  .packages i {
+    font-size: 4em;
+    color: #007bff;
+  }
+  
+  .packages h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .packages p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonials .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .testimonials hr {
+    border: none;
+    border-top: 2px solid #007bff;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  .testimonials .quote {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .testimonials .author {
+    font-style: italic;
+    color: #fffcfc;
+    margin: 0;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .contact p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact hr {
+    border: none;
+    border-top: 2px solid #007bff;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  .contact form {
+    margin-bottom: 20px;
+  }
+  
+  .contact input[type='email'] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .contact .btn {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .hiros{
+    color:azure;
+  }
